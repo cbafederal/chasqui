@@ -40,6 +40,8 @@ Detalle en [docs/ARQUITECTURA.md](docs/ARQUITECTURA.md).
 - **No afirmar compatibilidades no probadas.** Todo lo que diga "compatible"
   debe tener una prueba documentada en `pruebas/`.
 - **No modificar routers reales** sin un procedimiento de recuperación probado.
+- **No es una herramienta de rastreo.** La ubicación solo se comparte cuando el
+  usuario la envía. Ver [docs/USOS.md](docs/USOS.md).
 - **Trazabilidad real:** el historial de Git es el registro de avances. No se
   simulan fechas ni trabajo previo.
 
