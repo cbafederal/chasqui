@@ -13,6 +13,16 @@ prueba real en `pruebas/`.
 | **5** | Primer router convertido en nodo | Instalación **y recuperación** probadas en el mismo modelo |
 | **6** | Pruebas de campo | Campamento: 4–5 celulares distribuidos, medición de saltos, latencia y alcance. Luego, un barrio piloto. |
 
+## Etapas futuras (ideas registradas, sin fecha)
+
+- **Drone "mula de datos"** (idea de Nicolás Bergese, registrada el 2026-11-22):
+  un drone que recorre avenidas y calles llevando un nodo a bordo. Recoge y
+  entrega mensajes al pasar cerca de celulares y nodos fijos, y conecta zonas
+  aisladas entre sí. ⏳ Pendiente: regulación de ANAC para drones, autonomía y
+  capacidad de carga.
+- **Uso en campamentos y zonas rurales**: un nodo fijo con LoRa y antena
+  elevada por campamento o establecimiento, y enlaces LoRa entre ellos.
+
 ## Prueba de campo de referencia: campamento
 
 - 4–5 celulares viejos distribuidos, de ser posible en altura (árbol o palo), con power bank o panel.

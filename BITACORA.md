@@ -15,4 +15,6 @@ Registro cronológico real. Cada entrada corresponde a trabajo hecho en esa fech
 - Decisión: celulares viejos como primeros nodos fijos ([ADR-0003](docs/decisiones/ADR-0003-nodos-fijos.md)).
 - Definida la prueba de campo de referencia: campamento con 4–5 celulares.
 
+- Idea registrada para una etapa futura: drone como "mula de datos" que recorre calles distribuyendo mensajes ([HOJA_DE_RUTA](docs/HOJA_DE_RUTA.md)).
+
 **Próximo:** resolver los pendientes de [INVESTIGACION.md §7](docs/INVESTIGACION.md) y conseguir 2 placas LoRa de 915 MHz.
