@@ -15,6 +15,9 @@ prueba real en `pruebas/`.
 
 ## Etapas futuras (ideas registradas, sin fecha)
 
+- **CHASQUI NODE**: dispositivo comercial propio basado en Heltec LoRa 32
+  ([ADR-0004](decisiones/ADR-0004-chasqui-node.md), propuesta).
+
 - **Drone "mula de datos"** (idea de Nicolás Bergese, registrada el 2026-11-22):
   un drone que recorre avenidas y calles llevando un nodo a bordo. Recoge y
   entrega mensajes al pasar cerca de celulares y nodos fijos, y conecta zonas

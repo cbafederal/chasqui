@@ -16,5 +16,7 @@ Registro cronológico real. Cada entrada corresponde a trabajo hecho en esa fech
 - Definida la prueba de campo de referencia: campamento con 4–5 celulares.
 
 - Idea registrada para una etapa futura: drone como "mula de datos" que recorre calles distribuyendo mensajes ([HOJA_DE_RUTA](docs/HOJA_DE_RUTA.md)).
+- Propuesta registrada: dispositivo comercial CHASQUI NODE ([ADR-0004](docs/decisiones/ADR-0004-chasqui-node.md)).
+- Evaluado el Seeed Wio Tracker L1 Pro: según un reporte de usuario no es compatible con RNode y no tiene Wi-Fi; queda como referencia de diseño.
 
 **Próximo:** resolver los pendientes de [INVESTIGACION.md §7](docs/INVESTIGACION.md) y conseguir 2 placas LoRa de 915 MHz.

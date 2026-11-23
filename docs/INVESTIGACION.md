@@ -61,6 +61,9 @@ Al comprar:
 - Elegir la versión **915 MHz**.
 - Que incluya antena. **No transmitir nunca sin antena**, porque se daña la etapa de radio.
 
+**Equipos evaluados:**
+- **Seeed Wio Tracker L1 Pro** (nRF52840 + SX1262, GPS, batería de 2000 mAh, entrada solar, gabinete). Viene listo para Meshtastic y existe una variante para MeshCore. ⏳ Según un reporte de usuario en r/reticulum, **no está soportado por RNode** (https://www.reddit.com/r/reticulum/comments/1uq1orb/). No tiene Wi-Fi. No sirve como base de CHASQUI NODE. Es una buena referencia de diseño de producto: gabinete, solar y bajo consumo.
+
 Velocidad orientativa de LoRa con RNode: de ~37 bps a ~11 kbps según la configuración (fuente: reticulumnet.nl). ⏳ medir en pruebas propias.
 
 ## 5. Android, Bluetooth, Wi-Fi Direct y routers ⏳
