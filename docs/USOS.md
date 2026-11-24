@@ -33,6 +33,12 @@ ni continua.
   conserva la recibida.
   Variante: vista previa liviana por LoRa y foto completa cuando aparece un enlace Wi-Fi.
   ⏳ Medir tiempos reales por LoRa; evaluar formatos (WebP/AVIF) y modelos de mejora offline.
+- **Radio FM del auto** (idea de Nicolás Bergese, 2026-11-24): usar el estéreo como parlante para
+  escuchar los mensajes (por Bluetooth o con un transmisor FM de baja potencia dentro del auto).
+  ⏳ Retransmitir en FM hacia otros vehículos requiere licencia de radiodifusión (ENACOM), así que
+  no se contempla sin habilitación.
+- **Hardware candidato para moto** (requisitos: GPS + microSD): LilyGO T-Beam Supreme 915
+  (GPS, ranura TF, 18650, soportado por RNode), según https://wiki.lilygo.cc/products/t-beam-series/t-beam-supreme/
 - **Reloj inteligente**: ⏳ con Wear OS se puede hacer una app compañera (botón SOS, "Estoy bien",
   enviar ubicación con el GPS del reloj). Garmin tiene una plataforma limitada (Connect IQ) y los
   relojes económicos con sistema cerrado probablemente no sirvan. Se mantiene el principio: la
