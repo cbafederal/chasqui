@@ -39,6 +39,14 @@ ni continua.
   no se contempla sin habilitación.
 - **Hardware candidato para moto** (requisitos: GPS + microSD): LilyGO T-Beam Supreme 915
   (GPS, ranura TF, 18650, soportado por RNode), según https://wiki.lilygo.cc/products/t-beam-series/t-beam-supreme/
+- **Corredor de emergencias en rutas y autopistas** (idea de Nicolás Bergese, 2026-11-24): nodos
+  fijos con LoRa y panel solar en peajes, estaciones de servicio, paradores, destacamentos y
+  cuarteles de bomberos voluntarios, sobre todo en tramos sin señal. El viajero con la app manda
+  SOS con ubicación y tipo de emergencia (accidente, mecánica, salud), y el mensaje salta de nodo
+  en nodo hasta un punto con personal o conexión.
+  ⏳ Relevar lo que ya existe (postes SOS de autopistas, SOS satelital en celulares). ⏳ La
+  integración con servicios oficiales (911, Vialidad, bomberos) requiere acuerdos con ellos; no
+  se promete sin esos acuerdos.
 - **Reloj inteligente**: ⏳ con Wear OS se puede hacer una app compañera (botón SOS, "Estoy bien",
   enviar ubicación con el GPS del reloj). Garmin tiene una plataforma limitada (Connect IQ) y los
   relojes económicos con sistema cerrado probablemente no sirvan. Se mantiene el principio: la
