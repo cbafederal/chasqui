@@ -26,6 +26,13 @@ ni continua.
   leído, solo audio, o ambos.
   ⏳ Evaluar reconocimiento de voz offline en español (motor de Android sin conexión, Vosk,
   Whisper) con ruido de viento y casco. ⏳ Lectura en voz alta (TTS) offline de Android.
+- **Fotos livianas** (idea de Nicolás Bergese, 2026-11-24): el emisor reduce y comprime la foto
+  al extremo (orientativo: 5–15 KB) para que viaje por LoRa. El receptor la puede ampliar y mejorar
+  en el celular, sin internet. La versión mejorada se marca como **"mejorada (puede contener
+  detalles inventados)"**, porque la mejora agrega detalle que no estaba en la foto, y siempre se
+  conserva la recibida.
+  Variante: vista previa liviana por LoRa y foto completa cuando aparece un enlace Wi-Fi.
+  ⏳ Medir tiempos reales por LoRa; evaluar formatos (WebP/AVIF) y modelos de mejora offline.
 - **Reloj inteligente**: ⏳ con Wear OS se puede hacer una app compañera (botón SOS, "Estoy bien",
   enviar ubicación con el GPS del reloj). Garmin tiene una plataforma limitada (Connect IQ) y los
   relojes económicos con sistema cerrado probablemente no sirvan. Se mantiene el principio: la
