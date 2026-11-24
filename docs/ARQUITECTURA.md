@@ -45,6 +45,16 @@ Reglas de convivencia de la red (a definir con pruebas):
 2. Los nodos fijos ofrecen una red Wi-Fi abierta con un portal para descargar el APK.
 3. Distribución previa con internet: GitHub Releases, F-Droid (⏳) y QR en lugares públicos.
 
+**Propagación "viral" con consentimiento** (pedido de Nicolás Bergese, 2026-11-24):
+cada app instalada **anuncia automáticamente** que puede compartir el APK y lo
+ofrece a los dispositivos cercanos. La instalación **siempre la confirma el
+usuario**: Android no permite instalar apps sin aceptación, y hacerlo sería
+comportamiento de malware.
+- El APK se firma con la clave del proyecto. Antes de ofrecer o instalar una
+  copia recibida, la app verifica la firma, para que no circulen versiones
+  falsas o modificadas.
+- Las versiones más nuevas se propagan del mismo modo y reemplazan a las viejas.
+
 ## Energía
 
 Ningún nodo fijo se considera desplegado sin respaldo de energía (batería, UPS o panel solar).

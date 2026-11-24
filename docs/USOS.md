@@ -6,6 +6,13 @@ Nicolás Bergese, 2026-11-22). La ubicación solo se comparte cuando el usuario 
 envía a propósito, en un mensaje o en un SOS. Nunca se envía de forma automática
 ni continua.
 
+## Primer uso cotidiano: Modo Ruta / Modo Campamento (prioridad, 2026-11-24)
+- Grupo creado con un QR (por ejemplo, los integrantes de una salida en moto).
+- Chat del grupo y mensajes directos sin señal.
+- Botones rápidos: "Estoy bien", "Me detuve", "Necesito ayuda" y SOS.
+- "Enviar mi ubicación" solo cuando el usuario lo toca, nunca de forma automática.
+- Hardware opcional: una placa LoRa por moto o por carpa, conectada al celular por Bluetooth.
+
 ## Usos
 - **Emergencias y apagones**: comunicación vecinal, SOS, coordinación con bomberos voluntarios y defensa civil.
 - **Campamentos**: mensajes entre carpas, grupos y campamentos vecinos.
