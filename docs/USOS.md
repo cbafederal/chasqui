@@ -17,6 +17,15 @@ ni continua.
 - **Intercomunicador de moto** como complemento: el intercomunicador se conecta al celular como
   auricular Bluetooth, así que la app reproduce y graba por él. ⏳ Probar que el botón del
   intercomunicador dispare la grabación, modelo por modelo. Pensado para usar sin mirar la pantalla.
+- **Extender el alcance del intercomunicador con LoRa** (idea de Nicolás Bergese, 2026-11-24):
+  cuando el grupo supera el alcance propio del intercomunicador, los audios viajan por LoRa
+  como "handy diferido". Se acepta la demora.
+- **Voz → texto → voz** (idea de Nicolás Bergese, 2026-11-24): el emisor habla, el celular lo
+  pasa a texto **sin internet**, viaja como texto (de bytes a pocos KB, ideal para LoRa) y el
+  celular del receptor lo **lee en voz alta** por el intercomunicador. Modos: solo texto
+  leído, solo audio, o ambos.
+  ⏳ Evaluar reconocimiento de voz offline en español (motor de Android sin conexión, Vosk,
+  Whisper) con ruido de viento y casco. ⏳ Lectura en voz alta (TTS) offline de Android.
 - **Reloj inteligente**: ⏳ con Wear OS se puede hacer una app compañera (botón SOS, "Estoy bien",
   enviar ubicación con el GPS del reloj). Garmin tiene una plataforma limitada (Connect IQ) y los
   relojes económicos con sistema cerrado probablemente no sirvan. Se mantiene el principio: la
