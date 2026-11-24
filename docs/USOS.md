@@ -12,6 +12,15 @@ ni continua.
 - Botones rápidos: "Estoy bien", "Me detuve", "Necesito ayuda" y SOS.
 - "Enviar mi ubicación" solo cuando el usuario lo toca, nunca de forma automática.
 - Hardware opcional: una placa LoRa por moto o por carpa, conectada al celular por Bluetooth.
+- **Audio como función central** (2026-11-24): notas de voz y reproducción automática al llegar.
+  ⏳ Verificar si los audios y llamadas de Sideband (LXST) funcionan sobre LoRa o solo sobre Wi-Fi.
+- **Intercomunicador de moto** como complemento: el intercomunicador se conecta al celular como
+  auricular Bluetooth, así que la app reproduce y graba por él. ⏳ Probar que el botón del
+  intercomunicador dispare la grabación, modelo por modelo. Pensado para usar sin mirar la pantalla.
+- **Reloj inteligente**: ⏳ con Wear OS se puede hacer una app compañera (botón SOS, "Estoy bien",
+  enviar ubicación con el GPS del reloj). Garmin tiene una plataforma limitada (Connect IQ) y los
+  relojes económicos con sistema cerrado probablemente no sirvan. Se mantiene el principio: la
+  ubicación se envía solo a pedido.
 
 ## Usos
 - **Emergencias y apagones**: comunicación vecinal, SOS, coordinación con bomberos voluntarios y defensa civil.
